@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.Aspects.Autofac.Caching
 {
+    /// <summary>
+    /// Cache Aspect
+    /// </summary>
    public class CacheAspect:MethodInterception
    {
        private readonly int _duration;
